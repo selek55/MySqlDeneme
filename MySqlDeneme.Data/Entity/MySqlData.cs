@@ -19,7 +19,7 @@ namespace MySqlDeneme.Data.Entity
         public DbSet<Menu> Menus { get; set; }
     }
 
-    public class TransferDbFactory : IDesignTimeDbContextFactory<MySqlData>
+    public class MySqlDataFactory : IDesignTimeDbContextFactory<MySqlData>
     {
         public MySqlData CreateDbContext(string[] args)
         {
