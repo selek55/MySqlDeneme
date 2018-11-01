@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MySqlDeneme", "MySqlDeneme\MySqlDeneme.csproj", "{FCA06AE4-96FE-4014-B10D-68AAAA09DB53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MySqlDeneme.Data", "MySqlDeneme.Data\MySqlDeneme.Data.csproj", "{2AF74A58-3617-48CC-8050-F9F419C912D6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FCA06AE4-96FE-4014-B10D-68AAAA09DB53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCA06AE4-96FE-4014-B10D-68AAAA09DB53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCA06AE4-96FE-4014-B10D-68AAAA09DB53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCA06AE4-96FE-4014-B10D-68AAAA09DB53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AF74A58-3617-48CC-8050-F9F419C912D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AF74A58-3617-48CC-8050-F9F419C912D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AF74A58-3617-48CC-8050-F9F419C912D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AF74A58-3617-48CC-8050-F9F419C912D6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5FE214D5-28E6-47BA-BAEA-BB531308E26E}
+	EndGlobalSection
+EndGlobal
