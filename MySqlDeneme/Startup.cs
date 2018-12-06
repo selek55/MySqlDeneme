@@ -22,10 +22,11 @@ namespace MySqlDeneme
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<MySqlData>(options =>
-                options.UseMySql(Configuration.GetConnectionString("DefaultConnection"))); 
+            services.AddDbContext<MySqlData>(options => options.UseMySql(Configuration.GetConnectionString("DefaultConnection")));
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+
+            services.AddTransient<IMySqlData, MySqlData>();
 
             // In production, the React files will be served from this directory
             services.AddSpaStaticFiles(configuration =>
